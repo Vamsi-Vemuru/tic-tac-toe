@@ -1,9 +1,8 @@
 from django.contrib import admin
 from .models import *
-from .forms import RegForm
 # Register your models here.
 class RegAdmin(admin.ModelAdmin):
-	list_display = ['first_name','email']
+	list_display = ['__unicode__','email']
 	class Meta:
 		model = Registration
 

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"avail_posis"
+			],
+			[
+				"b",
+				"boardout"
+			],
+			[
+				"ver",
+				"vertical"
+			],
+			[
+				"for",
+				"forver"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"h",
+				"hor"
+			],
+			[
+				"htt",
+				"HttpResponse"
+			],
+			[
+				"pr",
+				"preventClick"
+			],
+			[
 				"ran",
 				"rand_pos"
 			],
@@ -12,28 +44,12 @@
 				"randrange"
 			],
 			[
-				"a",
-				"a"
-			],
-			[
-				"b",
-				"b"
-			],
-			[
 				"d",
 				"div	Tag"
 			],
 			[
-				"re",
-				"request"
-			],
-			[
 				"r",
 				"request"
-			],
-			[
-				"for",
-				"fordia"
 			],
 			[
 				"bo",
@@ -371,7 +387,31 @@
 			"file": "ttt/templates/game.html",
 			"settings":
 			{
-				"buffer_size": 3215,
+				"buffer_size": 1661,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tictactoe/settings.py",
+			"settings":
+			{
+				"buffer_size": 2885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/our_static/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 134,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/our_static/js/tictactoe.js",
+			"settings":
+			{
+				"buffer_size": 2451,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,46 +427,11 @@
 			}
 		},
 		{
-			"contents": "from django.shortcuts import render\nfrom .forms import RegForm\nimport random\nfrom django.http import HttpResponse\n# Create your views here.\ndef isComputer(inp):\n	return inp==\"OOO\"\ndef isPlayer(inp):\n	return inp==\"XXX\"\ndef diagonal(inp):\n	ln = int(len(inp)**(1/2.0))\n	fordia = \"\"\n	revdia = \"\"\n	for m in range(ln):\n		fordia += inp[m * (ln + 1)]\n		revdia += inp[(m + 1) * (ln - 1)]\n	if isPlayer(fordia) or isPlayer(revdia):\n		return \"Player\"\n	elif isComputer(fordia) or isComputer(revdia):\n		return \"Computer\"\n	return \"\"\n\ndef game(request):\n 	context ={}\n	if request.GET.has_key('didstr'):\n		b = request.GET.get('boardout')\n		b = str(b)\n		a = request.GET.get('didstr')\n		a = str(a)\n		a = a.split(\",\")\n		rand_pos = random.randrange(len(a))\n		a = str(a[rand_pos])\n		ls = []\n		for x in range(0,len(b),3):\n			lt = b[x:x+3]\n			ls.append([y for y in lt])\n		ls[int(a[1:2])-1][int(a[2:3])-1] = \"O\"\n		for i in range(len(ls)):\n			ls[i] = \"\".join(ls[i])\n		ls = \"\".join(ls)\n		b = ls\n		c = diagonal(b)\n		if c == \"Player\":\n			return HttpResponse(c)\n		a = a + \",\" + b\n		return HttpResponse(a)\n	return render(request,'game.html',context)\n\ndef home(request):\n\n	form = RegForm(request.POST or None)\n	context = {'form':form}\n	if form.is_valid():\n		form.save()\n		context = {}\n	\n	return render(request,'home.html',context)\n",
 			"file": "ttt/views.py",
-			"file_size": 1326,
-			"file_write_time": 130938030782728789,
 			"settings":
 			{
-				"buffer_size": 1299,
+				"buffer_size": 2455,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ttt/templates/winner.html",
-			"settings":
-			{
-				"buffer_size": 90,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tictactoe/settings.py",
-			"settings":
-			{
-				"buffer_size": 2885,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ttt/models.py",
-			"settings":
-			{
-				"buffer_size": 469,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ttt/forms.py",
-			"settings":
-			{
-				"buffer_size": 294,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -500,6 +505,7 @@
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/css",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/js",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/tictactoe",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt",
@@ -507,6 +513,11 @@
 	],
 	"file_history":
 	[
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt/forms.py",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/tictactoe/settings.py",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt/models.py",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt/templates/winner.html",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt/templates/game.html",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/css/styles.css",
 		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/js/tictactoe.js",
 		"/E/WORK/FJU/src/modulepage/templates/modulepage.html",
@@ -629,12 +640,7 @@
 		"/E/WORK/MSIT/IT/WP/jsudacity/frontend-nanodegree-resume/js/resumeBuilder.js",
 		"/E/WORK/cordova/hello/www/css/index.css",
 		"/C/Users/vamsi/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/starter-www/index.html",
-		"/C/Users/vamsi/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/starter-www/assets/css/styles.css",
-		"/E/WORK/cordova/hello/www/index.html",
-		"/E/WORK/cordova/hello/www/js/index.js",
-		"/E/WORK/cordova/hello/config.xml",
-		"/E/WORK/MSIT/IT/WP/portfolio/framework/css/main.css",
-		"/E/WORK/MSIT/IT/WP/portfolio/task 2/task2.html"
+		"/C/Users/vamsi/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/starter-www/assets/css/styles.css"
 	],
 	"find":
 	{
@@ -653,6 +659,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"style=\"\"",
+			"font-size:80px; text-align: center; background-color:red; height:100px; width:100px; border: 1px solid black;",
+			"lt",
+			"ls",
+			"board_schematic",
+			"a",
+			"b",
 			"num_word",
 			"test",
 			"i",
@@ -667,6 +680,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"b",
 			"timeInWords",
 			"string"
 		],
@@ -679,7 +693,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -688,31 +702,124 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3215,
+						"buffer_size": 1661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2752,
-								2752
+								312,
+								312
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tictactoe/settings.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/our_static/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
+					"file": "static/our_static/js/tictactoe.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2451,
+								2451
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "ttt/templates/home.html",
 					"semi_transient": false,
 					"settings":
@@ -730,65 +837,9 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "ttt/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								539,
-								539
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": -0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "ttt/templates/winner.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 90,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								72,
-								72
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -798,55 +849,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "tictactoe/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 780.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "ttt/models.py",
+					"file": "ttt/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 469,
+						"buffer_size": 2455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								390,
-								390
+								1362,
+								1362
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -857,34 +880,6 @@
 				},
 				{
 					"buffer": 6,
-					"file": "ttt/forms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "tictactoe/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -902,17 +897,20 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 120.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "ttt/admin.py",
 					"semi_transient": false,
 					"settings":
@@ -930,6 +928,7 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
