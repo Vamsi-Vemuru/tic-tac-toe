@@ -1,0 +1,8 @@
+.col-sm-2 {
+	font-size:80px; 
+	text-align: center; 
+	background-color:red; 
+	height:100px; 
+	width:100px; 
+	border: 1px solid black;
+}

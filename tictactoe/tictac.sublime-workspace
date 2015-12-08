@@ -1,0 +1,1040 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ran",
+				"rand_pos"
+			],
+			[
+				"ra",
+				"randrange"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"for",
+				"fordia"
+			],
+			[
+				"bo",
+				"boardout"
+			],
+			[
+				"boar",
+				"boardout"
+			],
+			[
+				"rand",
+				"rand_pos"
+			],
+			[
+				"di",
+				"dids"
+			],
+			[
+				"did",
+				"didhash"
+			],
+			[
+				"Reg",
+				"RegAdmin"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"mod",
+				"module"
+			],
+			[
+				"mo",
+				"module"
+			],
+			[
+				"cn",
+				"c_name"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"c_",
+				"c_names"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"__",
+				"__unicode__"
+			],
+			[
+				"M",
+				"Module_content"
+			],
+			[
+				"su",
+				"submitTime"
+			],
+			[
+				"doc",
+				"docfile"
+			],
+			[
+				"da",
+				"days_between"
+			],
+			[
+				"in",
+				"inp2"
+			],
+			[
+				"inp",
+				"inp2"
+			],
+			[
+				"li",
+				"li1"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"dif",
+				"diff2"
+			],
+			[
+				"set",
+				"set2"
+			],
+			[
+				"n",
+				"num_3"
+			],
+			[
+				"num",
+				"num_2"
+			],
+			[
+				"nu",
+				"num_2"
+			],
+			[
+				"S",
+				"SignUpForm"
+			],
+			[
+				"Sig",
+				"SignUpForm"
+			],
+			[
+				"SI",
+				"SignUpAdmin"
+			],
+			[
+				"try",
+				"trydjango18"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"dig",
+				"dig2"
+			],
+			[
+				"dgi",
+				"dig2"
+			],
+			[
+				"min",
+				"minutes"
+			],
+			[
+				"list",
+				"list2"
+			],
+			[
+				"print",
+				"print"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"dict",
+				"dict_words"
+			],
+			[
+				"build",
+				"build_dict"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"new",
+				"newNums"
+			],
+			[
+				"ele",
+				"ele2"
+			],
+			[
+				"tup",
+				"tuples"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"t",
+				"text-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bac",
+				"a_back_half"
+			],
+			[
+				"fron",
+				"front_half"
+			],
+			[
+				"ba",
+				"a_back_half"
+			],
+			[
+				"not_",
+				"not_ind"
+			],
+			[
+				"not",
+				"not_bad"
+			],
+			[
+				"bad",
+				"bad_ind"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"formatted",
+				"formattedRole"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ttt/templates/game.html",
+			"settings":
+			{
+				"buffer_size": 3215,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n{% load static %}\n<html>\n<head>\n	<meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n	<title>TicTacToe</title>\n	<link rel=\"stylesheet\" href=\"{% static \"css\\bootstrap.min.css\" %}\" />\n	<script src=\"{% static \"js\\jquery-1.11.3.min.js\" %}\"></script>\n	<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js\"></script>\n</head>\n<body>\n	<form method=\"post\">{% csrf_token %}\n	{{ form.as_p }}\n	<input type=\"submit\" value=\"Register\">\n	</form>\n</body>\n</html>",
+			"file": "ttt/templates/home.html",
+			"file_size": 609,
+			"file_write_time": 130937725236435835,
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "from django.shortcuts import render\nfrom .forms import RegForm\nimport random\nfrom django.http import HttpResponse\n# Create your views here.\ndef isComputer(inp):\n	return inp==\"OOO\"\ndef isPlayer(inp):\n	return inp==\"XXX\"\ndef diagonal(inp):\n	ln = int(len(inp)**(1/2.0))\n	fordia = \"\"\n	revdia = \"\"\n	for m in range(ln):\n		fordia += inp[m * (ln + 1)]\n		revdia += inp[(m + 1) * (ln - 1)]\n	if isPlayer(fordia) or isPlayer(revdia):\n		return \"Player\"\n	elif isComputer(fordia) or isComputer(revdia):\n		return \"Computer\"\n	return \"\"\n\ndef game(request):\n 	context ={}\n	if request.GET.has_key('didstr'):\n		b = request.GET.get('boardout')\n		b = str(b)\n		a = request.GET.get('didstr')\n		a = str(a)\n		a = a.split(\",\")\n		rand_pos = random.randrange(len(a))\n		a = str(a[rand_pos])\n		ls = []\n		for x in range(0,len(b),3):\n			lt = b[x:x+3]\n			ls.append([y for y in lt])\n		ls[int(a[1:2])-1][int(a[2:3])-1] = \"O\"\n		for i in range(len(ls)):\n			ls[i] = \"\".join(ls[i])\n		ls = \"\".join(ls)\n		b = ls\n		c = diagonal(b)\n		if c == \"Player\":\n			return HttpResponse(c)\n		a = a + \",\" + b\n		return HttpResponse(a)\n	return render(request,'game.html',context)\n\ndef home(request):\n\n	form = RegForm(request.POST or None)\n	context = {'form':form}\n	if form.is_valid():\n		form.save()\n		context = {}\n	\n	return render(request,'home.html',context)\n",
+			"file": "ttt/views.py",
+			"file_size": 1326,
+			"file_write_time": 130938030782728789,
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ttt/templates/winner.html",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tictactoe/settings.py",
+			"settings":
+			{
+				"buffer_size": 2885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ttt/models.py",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ttt/forms.py",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tictactoe/urls.py",
+			"settings":
+			{
+				"buffer_size": 849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from django.contrib import admin\nfrom .models import *\n# Register your models here.\nclass RegAdmin(admin.ModelAdmin):\n	list_display = ['__unicode__','email']\n	class Meta:\n		model = Registration\n\nadmin.site.register(Registration, RegAdmin)",
+			"file": "ttt/admin.py",
+			"file_size": 264,
+			"file_write_time": 130937684986332542,
+			"settings":
+			{
+				"buffer_size": 238,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/js",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/tictactoe",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/ttt/templates"
+	],
+	"file_history":
+	[
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/css/styles.css",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/static/our_static/js/tictactoe.js",
+		"/E/WORK/FJU/src/modulepage/templates/modulepage.html",
+		"/E/WORK/MSIT/IT/WP/jsudacity/frontend-nanodegree-resume/index.html",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/templates/home.html",
+		"/E/WORK/MSIT/IT/WP/Django/venv/src/templates/home.html",
+		"/E/WORK/MSIT/IT/WP/Final Exam Part 2/venv/tictactoe/templates/landing.html",
+		"/E/WORK/FJU/src/FJU/settings.py",
+		"/E/WORK/FJU/src/modulepage/templates/ask.html",
+		"/E/WORK/FJU/src/modulepage/templates/faq.html",
+		"/E/WORK/FJU/src/static/our_static/css/sidebar.css",
+		"/E/WORK/FJU/src/FJU/urls.py",
+		"/E/WORK/FJU/src/modulepage/admin.py",
+		"/E/WORK/FJU/src/modulepage/views.py",
+		"/E/WORK/FJU/src/modulepage/models.py",
+		"/C/Users/vamsi/Downloads/views.py",
+		"/E/WORK/FJU/src/static/our_static/js/jquery1.min.js",
+		"/E/WORK/FJU/src/static/our_static/js/jquery.min.js",
+		"/C/Users/vamsi/Downloads/pro/template/modulepage.html",
+		"/C/Users/vamsi/Downloads/models (1).py",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/myapp/templates/list.html",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/trydjango18/settings.py",
+		"/E/WORK/FJU/src/modulepage/migrations/__init__.py",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/myapp/views.py",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/myapp/forms.py",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/myapp/models.py",
+		"/C/Users/vamsi/Downloads/-.txt",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/myapp/admin.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/models.py",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/newsletter/models.py",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/settings.py",
+		"/E/WORK/test/minimal-django-file-upload-example/src/for_django_1-8/myproject/myproject/urls.py",
+		"/E/WORK/reward.py",
+		"/E/WORK/hackerrank/python/Strings/Capitalize.py",
+		"/E/WORK/hackerrank/python/Introduction/printfunction.py",
+		"/E/WORK/hackerrank/python/Strings/stringformatting.py",
+		"/E/WORK/hackerrank/python/Strings/designerdoormat.py",
+		"/E/WORK/hackerrank/python/Strings/textwrap.py",
+		"/E/WORK/hackerrank/python/Strings/textalignment.py",
+		"/E/WORK/hackerrank/python/Strings/stringvalidators.py",
+		"/E/WORK/hackerrank/python/Strings/findastring.py",
+		"/E/WORK/hackerrank/python/Introduction/percentage.py",
+		"/E/WORK/hackerrank/python/Strings/mutations.py",
+		"/E/WORK/hackerrank/python/Strings/splitandjoin.py",
+		"/E/WORK/hackerrank/python/Strings/swapcase.py",
+		"/E/WORK/MSIT/IT/WP/Python/list1.py",
+		"/E/WORK/hackerrank/python/Datatypes/nestedlist.py",
+		"/E/WORK/hackerrank/python/Datatypes/listcomprehensions.py",
+		"/E/WORK/hackerrank/python/Datatypes/sets-symmetricdiff.py",
+		"/E/WORK/hackerrank/python/Datatypes/tuples.py",
+		"/E/WORK/hackerrank/python/Datatypes/lists.py",
+		"/E/WORK/hackerrank/python/Introduction/interchangetwonumbers.py",
+		"/E/WORK/hackerrank/python/Introduction/whatsyourname.py",
+		"/E/WORK/hackerrank/python/Datatypes/secondlargestelement.py",
+		"/E/WORK/hackerrank/python/Introduction/loops.py",
+		"/E/WORK/hackerrank/python/Introduction/IntAllSizes.py",
+		"/E/WORK/hackerrank/python/Introduction/PowerMod.py",
+		"/E/WORK/hackerrank/python/Introduction/DivMod.py",
+		"/E/WORK/hackerrank/python/Introduction/Division.py",
+		"/E/WORK/hackerrank/python/Introduction/ArithmaticOperators.py",
+		"/E/WORK/hackerrank/python/Introduction/RawInput.py",
+		"/E/WORK/hackerrank/python/Introduction/HelloWorld.py",
+		"/E/WORK/hackerrank/python/Introduction/SolveMeFirst.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/mysite/urls.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/urls.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/templates/polls/index.html",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/templates/polls/detail.html",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/templates/polls/results.html",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/views.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/mysite/settings.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/polls/admin.py",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/templates/admin/base_site.html",
+		"/E/WORK/MSIT/IT/WP/Django/mysite/templates/admin/index.html",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/newsletter/forms.py",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/newsletter/views.py",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/newsletter/admin.py",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/trydjango18/urls.py",
+		"/E/WORK/MSIT/IT/WP/Django/trydjango18/src/newsletter/templates/home.html",
+		"/E/WORK/MSIT/IT/WP/Django/venv/src/test_project/views.py",
+		"/E/WORK/MSIT/IT/WP/Django/venv/src/test_project/__init__.py",
+		"/E/WORK/MSIT/IT/WP/Django/venv/src/test_project/urls.py",
+		"/E/WORK/MSIT/IT/WP/Django/venv/src/test_project/settings.py",
+		"/E/WORK/MSIT/IT/WP/Week1_Exam/task2/index.html",
+		"/E/WORK/MSIT/IT/WP/Week1_Exam/task2/index.js",
+		"/E/WORK/MSIT/IT/WP/Week1_Exam/task2/style.css",
+		"/E/WORK/cordova/workshop/www/index.html",
+		"/E/WORK/cordova/workshop/www/js/index.js",
+		"/E/WORK/MSIT/IT/WP/Python/weekTest.py",
+		"/E/WORK/MSIT/IT/WP/Python/timeToWords.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/list1.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/list2.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/solution/list2.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/test.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/solution/list1.py",
+		"/E/WORK/MSIT/IT/WP/Python/mimic.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/solution/wordcount.py",
+		"/E/WORK/MSIT/IT/WP/Python/wordcount.py",
+		"/E/WORK/MSIT/IT/WP/Python/list2.py",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/mimic.py",
+		"/E/WORK/MSIT/IT/WP/Week1_Exam/task/index.html",
+		"/E/WORK/MSIT/IT/WP/Week1_Exam/task/styles.css",
+		"/C/Users/vamsi/Downloads/google-python-exercises/google-python-exercises/basic/string2.py",
+		"/E/WORK/MSIT/IT/WP/portfolio/task 2/style.css",
+		"/E/WORK/MSIT/IT/WP/Resume/resume.html",
+		"/E/WORK/MSIT/IT/WP/Resume/resume.js",
+		"/E/WORK/MSIT/IT/WP/Resume/style.css",
+		"/E/WORK/MSIT/IT/WP/test/BMI/www/js/index.js",
+		"/E/WORK/MSIT/IT/WP/test/BMI/www/css/styles.css",
+		"/E/WORK/MSIT/IT/WP/test/BMI/www/index.html",
+		"/E/WORK/MSIT/IT/WP/Python/prob7.py",
+		"/E/WORK/MSIT/IT/WP/Python/prob5.py",
+		"/E/WORK/MSIT/IT/WP/Python/prob3.py",
+		"/E/WORK/MSIT/IT/WP/Python/prob2.py",
+		"/E/WORK/MSIT/IT/WP/Python/prob6.py",
+		"/E/WORK/MSIT/IT/WP/Python/prob1.py",
+		"/E/WORK/MSIT/IT/WP/Python/prob4.py",
+		"/E/WORK/MSIT/IT/WP/test/BMI/www/spec/helper.js",
+		"/E/WORK/MSIT/IT/WP/test/BMI/www/css/index.css",
+		"/E/WORK/MSIT/IT/WP/jsudacity/frontend-nanodegree-resume/js/helper.js",
+		"/E/WORK/MSIT/IT/WP/jsudacity/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/E/WORK/cordova/hello/www/css/index.css",
+		"/C/Users/vamsi/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/starter-www/index.html",
+		"/C/Users/vamsi/Downloads/Compressed/cordova-tutorial-master/cordova-tutorial-master/starter-www/assets/css/styles.css",
+		"/E/WORK/cordova/hello/www/index.html",
+		"/E/WORK/cordova/hello/www/js/index.js",
+		"/E/WORK/cordova/hello/config.xml",
+		"/E/WORK/MSIT/IT/WP/portfolio/framework/css/main.css",
+		"/E/WORK/MSIT/IT/WP/portfolio/task 2/task2.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"num_word",
+			"test",
+			"i",
+			"print_top",
+			"img",
+			"height",
+			"25px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"timeInWords",
+			"string"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ttt/templates/game.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2752,
+								2752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ttt/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ttt/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ttt/templates/winner.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tictactoe/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ttt/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ttt/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tictactoe/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								753,
+								753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "ttt/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 257.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tictac.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
