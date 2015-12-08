@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from .forms import RegForm
 import random
 from django.http import HttpResponse
 
