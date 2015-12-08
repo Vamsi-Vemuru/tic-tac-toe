@@ -64,7 +64,9 @@ def game(request):
   context ={}
   if request.GET.has_key('didstr'):
     board_schema = str(request.GET.get('boardout')) #the boardmap string
-    avail_posis = str(request.GET.get('didstr'))
+    avail_posis = str(request.GET.get('didstr')) #list of available positions on the board
+
+    #Generates the position of O by converting to 3D array
     temp1 = []
     for x in range(0,len(board_schema),3):
       temp2 = board_schema[x:x+3]
@@ -78,9 +80,12 @@ def game(request):
       temp1[i] = "".join(temp1[i])
     temp1 = "".join(temp1)
     board_schema = temp1
-    dia = diagonal(board_schema)
-    ver = vertical(board_schema)
-    hor = horizontal(board_schema)
+
+    dia = diagonal(board_schema) #check diagonal winning condition
+    ver = vertical(board_schema) #check vertical winning condition
+    hor = horizontal(board_schema) #check horizontal winning condition
+
+    #Winning or Draw condition for when board is at final playing position
     if avail_posis is "":
       if dia != "":
         return HttpResponse(dia)
@@ -90,23 +95,17 @@ def game(request):
         return HttpResponse(ver)
       return HttpResponse("Draw")
 
-    
+    #Block for regular game winning conditions i.e board still not full
     if dia != "":
       return HttpResponse(avail_posis+","+dia)
     if hor != "":
       return HttpResponse(avail_posis+","+hor)
     if ver != "":
       return HttpResponse(avail_posis+","+ver)
+
+    # other wise send back position data and board map
     avail_posis = avail_posis + "," + board_schema
     return HttpResponse(avail_posis)
+
+  #initial page render
   return render(request,'game.html',context)
-
-def home(request):
-
-  form = RegForm(request.POST or None)
-  context = {'form':form}
-  if form.is_valid():
-    form.save()
-    context = {}
-  
-  return render(request,'home.html',context)
